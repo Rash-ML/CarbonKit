@@ -704,7 +704,7 @@
 }
 
 - (void)setNormalColor:(UIColor *)color {
-    [self setNormalColor:color font:[UIFont boldSystemFontOfSize:14]];
+    [self setNormalColor:color font:[UIFont fontWithName:@"IRANSansMobile" size:14.0]];
 }
 
 - (void)setNormalColor:(UIColor *)color font:(UIFont *)font {
@@ -713,7 +713,7 @@
 }
 
 - (void)setSelectedColor:(UIColor *)color {
-    [self setSelectedColor:color font:[UIFont boldSystemFontOfSize:14]];
+    [self setSelectedColor:color font:[UIFont fontWithName:@"IRANSansMobile" size:14.0]];
 }
 
 - (void)setSelectedColor:(UIColor *)color font:(UIFont *)font {

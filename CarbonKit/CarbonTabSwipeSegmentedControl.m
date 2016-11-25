@@ -54,13 +54,13 @@
         // Custimize segmented control
         id titleAttr = @{
             NSForegroundColorAttributeName : [self.tintColor colorWithAlphaComponent:0.8],
-            NSFontAttributeName : [UIFont boldSystemFontOfSize:14]
+            NSFontAttributeName : [UIFont fontWithName:@"IRANSansMobile" size:14.0]
         };
         [self setTitleTextAttributes:titleAttr forState:UIControlStateNormal];
 
         id selectedTittleAttr = @{
             NSForegroundColorAttributeName : self.tintColor,
-            NSFontAttributeName : [UIFont boldSystemFontOfSize:14]
+            NSFontAttributeName : [UIFont fontWithName:@"IRANSansMobile" size:14.0]
         };
         [self setTitleTextAttributes:selectedTittleAttr forState:UIControlStateSelected];
 
